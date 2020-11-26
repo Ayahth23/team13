@@ -1,0 +1,282 @@
+/*HOMEPAGE CSS*/
+body{
+    background-color: #333;
+    margin:0;
+}
+/* top navigation bar for the homepage*/
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #cbff37;;
+    color: black;
+  }
+
+ .image1 {
+    background-image: url("image1.png");
+    background-color: #cccccc;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.topnav h3{
+    text-align: right;
+    color: white;
+    size: 17px;
+    padding: 10px 28px;
+
+}
+
+
+/*CONTENT PAGE */
+.content h2{
+  margin:10px 320px 15px;
+
+}
+.content ul{
+    font-size: 22px;
+    margin:2px 290px;
+
+}
+
+.insta{
+  position:relative;
+  position: absolute;
+  top: 41px;
+  left: 145px;
+}
+.logo2{
+  position:relative;
+  position: absolute;
+  top: 39px;
+  left: 50px;
+}
+
+/*ABOUT PAGE*/
+ .image3{
+    top: 100px;
+    text-align:center;
+}
+.box {
+    width: 800px;
+    height: 50px;  
+    border: 4px solid white ;
+    padding: 50px;
+    font-size: 20px;
+    color:white;
+    border-spacing: 37px 50px;  }
+
+.logo{
+  position:relative;
+  position: absolute;
+  top: 287px;
+  right: 50px;
+}
+ 
+/* CONTACT PAGE */
+
+.contact h2{
+  text-align:center;
+  font-size: 40px;
+  color:black;
+}
+
+/* contact form */
+
+#bodyBlock {
+  width: 700px;
+  margin: auto;
+  background-color: rgb(238, 238, 238);
+
+}
+#output {
+  margin: 1em 0;
+  color: black;
+  background-color: #fee;
+  padding: 1em;
+  border: 1px solid #ddd;
+}
+fieldset {
+  padding-top: 1em; 
+}
+.field {
+  width: 120px;
+  margin: 0 0.5em 0.5em 0;
+  float: left;
+  clear: left;
+  text-align: left;
+
+}
+.value {
+  margin: 0 0 0.5em 0;
+}
+#save {
+  float: right;
+}
+input:focus{
+  background-color: #cadafd;
+}
+textarea:focus{
+  background-color: #cadafd;
+}
+
+/*ICONS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #30333A;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background: #e59500;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+ul li .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #fff;
+}
+
+ul li.instagram{
+  background: #bc2a8d;
+}
+
+ul li.facebook{
+  background: #3b5998;
+}
+
+ul li.twitter{
+  background: #00aced;
+}
+
+ul li.google{
+  background: #F4B400;
+}
+
+ul li.youtube{
+  background: #FF0000;
+}
+
+ul li.facebook div.slider{
+  background: #627aac;
+}
+
+ul li.twitter div.slider{
+  background: #7fd5f6;
+}
+
+ul li.instagram div.slider{
+  background: #dd94c6;
+}
+
+ul li.google div.slider{
+  background: #ebcc76;
+}
+
+ul li.youtube div.slider{
+  background: #eea59c;
+}
+
+.slider {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 51px;
+  width: 0px;
+  height: 50px;
+  background: #eebb5c;
+  border-radius: 3px;
+  transition: all 0.5s 0.3s ease;
+}
+
+.slider p {
+  font-family: arial;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+
+ul li:hover .slider {
+  width: 180px;
+  transition: all 0.5s ease;
+}
+
+ul li:hover .slider p {
+  opacity: 1;
+  transition: all 1s 0.2s ease;
+}
+
+
+
+.form{
+  right: 50px;
+
+}
+
+
+/*
+    <footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+
+
+      */
+
+
+
+
+ 
