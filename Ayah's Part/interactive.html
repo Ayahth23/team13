@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="project.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="javascript.js"></script>
+        <script src="polls.js"></script>
+        <script src="poll2.js"></script>
+        <script src="poll3.js"></script>
+
+
+    </head>
+    <style>
+        body{
+            background-color: rgb(206, 206, 206);
+            font-family: 'Times New Roman', Times, serif;
+           }
+    
+    </style>
+    
+    <body>
+   
+      <div class="topnav">
+        <a href="homepage.html">Home</a>
+        <a href="content.html">Content</a>
+        <a href="homerankings.html">Rankings</a>
+        <a class="active" href="interactive.html">Interactive</a>
+        <a href="contact.html"> Contact</a>
+        <a href="about.html">About</a>
+      
+        <h4>TSH.tennis</h4>
+    </div>
+    <img src="serve.jpeg" alt=" " class="serve" width="400" height= "250">
+
+    <img src="forehand.jpg" alt=" " class="forehand" width="400" height= "250">
+
+    <img src="nextgen.jpg" alt=" " class="nextgen" width="500" height= "300">
+
+    <div class="title">
+    <h2> Vote for Your Player</h2>
+    <hr style="height:3px;border-width:0;color:black;background-color:black">
+  </div>
+    <!-- POLL  FOR PLAYERS 
+    first poll -->
+    <div id="choices">
+      <h3> Best Serve </h3>
+      <div class="choice">
+        <div class="result">
+          <div class="bar" data-choice="1"></div>
+        </div>
+        <div class="label"  style="color:black">
+          <p>Federer</p>
+          <button data-choice="1"  style="color:black">Vote</button>
+        </div>
+      </div>
+      <div class="choice">
+        <div class="result">
+          <div class="bar" data-choice="2"></div>
+        </div>
+        <div class="label"  style="color:black">
+          <p> Djokovic</p>
+          <button data-choice="2"  style="color:black">Vote</button>
+        </div>
+      </div>
+      <div class="choice">
+        <div class="result">
+          <div class="bar" data-choice="3"></div>
+        </div>
+        <div class="label"  style="color:black">
+          <p>Thiem</p>
+          <button data-choice="3"  style="color:black">Vote</button>
+        </div>
+      </div>
+      <div class="choice">
+        <div class="result">
+          <div class="bar" data-choice="4"></div>
+        </div>
+        <div class="label" style="color:black" >
+          <p>Tsitsipas</p>
+          <button data-choice="4"  style="color:black">Vote</button>
+        </div>
+      </div>
+    </div>
+    <br>
+      <!-- Second poll-->
+      <div id="choices">
+        <h3> Best Forehand </h3>
+        <div class="choice">
+          <div class="result">
+            <div class="bars" data-choice="5"></div>
+          </div>
+          <div class="label"  style="color:black">
+            <p>Nadal</p>
+            <button data-choice="5"  style="color:black">Vote</button>
+          </div>
+        </div>
+        <div class="choice">
+          <div class="results">
+            <div class="bars" data-choice="6"></div>
+          </div>
+          <div class="label"  style="color:black">
+            <p> Djokovic</p>
+            <button data-choice="6"  style="color:black">Vote</button>
+          </div>
+        </div>
+        <div class="choice">
+          <div class="results">
+            <div class="bars" data-choice="7"></div>
+          </div>
+          <div class="label"  style="color:black">
+            <p>Federer</p>
+            <button data-choice="7"  style="color:black">Vote</button>
+          </div>
+        </div>
+        <div class="choice">
+          <div class="results">
+            <div class="bars" data-choice="8"></div>
+          </div>
+          <div class="label" style="color:black" >
+            <p>Del Potro</p>
+            <button data-choice="8"  style="color:black">Vote</button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <!-- Third Poll-->
+      <div id="choices">
+        <h3> Favorite Next Gen Player </h3>
+        <div class="choice">
+          <div class="resultss">
+            <div class="barss" data-choice="9"></div>
+          </div>
+          <div class="label"  style="color:black">
+            <p>Medvedev</p>
+            <button data-choice="9"  style="color:black">Vote</button>
+          </div>
+        </div>
+        <div class="choice">
+          <div class="resultss">
+            <div class="barss" data-choice="10"></div>
+          </div>
+          <div class="label"  style="color:black">
+            <p> Zverev</p>
+            <button data-choice="10"  style="color:black">Vote</button>
+          </div>
+        </div>
+        <div class="choice">
+          <div class="resultss">
+            <div class="barss" data-choice="11"></div>
+          </div>
+          <div class="label"  style="color:black">
+            <p>Tsitsipas</p>
+            <button data-choice="11"  style="color:black">Vote</button>
+          </div>
+        </div>
+        <div class="choice">
+          <div class="result">
+            <div class="barss" data-choice="12"></div>
+          </div>
+          <div class="label" style="color:black" >
+            <p>Sinner</p>
+            <button data-choice="12"  style="color:black">Vote</button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <hr style="height:3px;border-width:0;color:black;background-color:black">
+
+    <!-- COMMENTS SECTIONS FOR USERS-->
+    <br />
+    <h2 align="center"><a>Comments</a></h2>
+    <br />
+    <div class="container">
+     <form method="POST" id="comment_form">
+      <div class="form-group">
+       <input type="text" name="comment_name" id="comment_name" class="form-control" placeholder="Enter Name" />
+      </div>
+      <div class="form-group">
+       <textarea name="comment_content" id="comment_content" class="form-control" placeholder="Enter Comment" rows="5"></textarea>
+      </div>
+      <div class="form-group">
+       <input type="hidden" name="comment_id" id="comment_id" value="0" />
+       <input type="submit" name="submit" id="submit" class="btn btn-info" value="Submit" />
+      </div>
+     </form>
+     <span id="comment_message"></span>
+     <br />
+     <div id="display_comment"></div>
+    </div>
+   </body>
+   <head>
+
+    <!-- Star Rating section-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+       .checked{
+           color: orange;
+       }
+    </style>
+    </head>
+    <body>
+
+    <div class="rating">
+    <h4>Star Rating</h4>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    </div>
+
+   
+    </body>
+
+</html>
+    
